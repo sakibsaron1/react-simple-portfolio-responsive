@@ -1,0 +1,59 @@
+.border-bottom{
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.about-details p{
+    color: #767676;
+}
+
+/*heading*/
+
+/* .about-back{
+    position: relative;
+}
+
+.about-back .about-head{
+    color: #000000;
+}
+.about-names{
+    position: absolute;
+} */
+
+/*ends*/
+
+
+
+
+.about-btn{
+    background-color: black;
+    color: #fff;
+    font-size: 13px;
+    transition: 0.5s;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.about-btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid black;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+
+.about-image img:hover {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+    transition: 1s;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px);
+         }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); 
+        }
+}

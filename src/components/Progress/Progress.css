@@ -1,0 +1,239 @@
+.shim-green {
+    position: relative;
+    overflow: hidden;
+    background-color: #F75421;
+  }
+  .shim-green::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 2s ease-out infinite;
+    content: "";
+  }
+  
+  .shim-blue {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 155, 255, 0.7);
+  }
+  .shim-blue::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 2.5s ease-out infinite;
+    content: "";
+  }
+  
+  .shim-red {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 0.7);
+  }
+  .shim-red::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 3s ease-out infinite;
+    content: "";
+  }
+
+  /*Purple*/
+  .shim-purple {
+    position: relative;
+    overflow: hidden;
+    background-color: #58407E;
+  }
+  .shim-purple::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 3.5s ease-out infinite;
+    content: "";
+  }
+
+  /*Blues*/
+
+  .shim-blues {
+    position: relative;
+    overflow: hidden;
+    background-color: #18ADAF;
+  }
+  .shim-blues::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 4s ease-out infinite;
+    content: "";
+  }
+  /*Yellow*/
+
+  .shim-yellow {
+    position: relative;
+    overflow: hidden;
+    background-color: #EFD81D;
+  }
+  .shim-yellow::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 2s ease-out infinite;
+    content: "";
+  }
+
+  /*Green*/
+
+  .shim-greny {
+    position: relative;
+    overflow: hidden;
+    background-color: #8BBF3D;
+  }
+  .shim-greny::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 2.5s ease-out infinite;
+    content: "";
+  }
+
+  /*Greny*/
+
+  .shim-greens {
+    position: relative;
+    overflow: hidden;
+    background-color: #419D38;
+  }
+  .shim-greens::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 3s ease-out infinite;
+    content: "";
+  }
+
+  /*React*/
+
+  .shim-react {
+    position: relative;
+    overflow: hidden;
+    background-color: #00D1F7;
+  }
+  .shim-react::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 3.5s ease-out infinite;
+    content: "";
+  }
+
+  /*Daisy*/
+
+  .shim-daisy {
+    position: relative;
+    overflow: hidden;
+    background-color: #6438B2;
+  }
+  .shim-daisy::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(233, 233, 233, 1) 0,
+      rgba(233, 233, 233, 0.9) 50%,
+      rgba(233, 233, 233, 0.8) 100%
+    );
+    animation: shimmer 4s ease-out infinite;
+    content: "";
+  }
+  
+  @keyframes shimmer {
+    100% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+  }
+  
